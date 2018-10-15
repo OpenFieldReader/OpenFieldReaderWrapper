@@ -8,9 +8,10 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='openfieldreaderwrapper',
-    version='1.0.0',
+    version='1.0.1',
     description='A wrapper around the openfieldreader command line tool to automatically detect paper-based form fields.',
-    url='https://github.com/OpenFieldReader/OpenFieldReader',
+    long_description='The algorithm run a ICR cell-detection analysis. It only focuses on paper-based forms. Because handwriting text represents valuable data. They can help automatically detect entities involved. Printed characters can be processed by tesseract.',
+    url='https://github.com/OpenFieldReader/OpenFieldReaderWrapper',
     author='Philip Doxakis',
     author_email='philip@doxakis.com',
     license='MIT',
